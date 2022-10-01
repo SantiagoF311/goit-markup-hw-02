@@ -1,0 +1,41 @@
+
+body {
+    font-family: 'Roboto' 'sans-serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #212121;
+}
+
+button {
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    border: 0;
+    width: 145px;
+    height: 24px;
+    top: 174px;
+    left: 712px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: #2196F3;
+}
+
+
+.Links {
+    color: #212121;
+    text-decoration: none;
+}
+
+.Links:hover {
+    color: #2196F3;
+}
+
+
+
+
+
+
