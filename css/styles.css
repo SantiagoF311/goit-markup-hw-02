@@ -1,6 +1,6 @@
 
 body {
-    font-family: 'Roboto' 'sans-serif';
+    font-family: 'Roboto','sans-serif';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -28,11 +28,16 @@ body {
     background-color: var(--color-active);
 }
 
+.button:focus {
+    background-color: var(--color-focus);
+    transition: 1s;
+}
+
 
 .link {
+    
     color: var(--color-general);
     text-decoration: none;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -42,16 +47,24 @@ body {
 
 .link:hover {
     color: var(--color-hover);
-}
+}   
 
 .link:active {
+    border-bottom: 2.9px solid var(--color-link-button);
+    width: 100%;
+    border-radius: 1%;
+    transition: .2s;
     color: var(--color-active);
 }
 
+.link:focus {
+    color: var(--color-focus);
+    transition: 1s;
+}
+
 .mail-tel {
-    color: var(--color-mailtel);
+    color: var(--color-secundario);
     text-decoration: none;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -63,8 +76,18 @@ body {
     color: var(--color-hover);
 }
 
-.mail-tel:active{
+.mail-tel:active {
     color: var(--color-active);
+    border-bottom: 2.9px solid var(--color-link-button);
+    width: 100%;
+    border-radius: 1%;
+    transition: .2s;
+    color: var(--color-active);
+}
+
+.mail-tel:focus {
+    color: var(--color-focus);
+    transition: 1s;
 }
 
 
@@ -84,17 +107,14 @@ body {
 /* Main */
 
 .title {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
     letter-spacing: 0.06em;
-    text-transform: uppercase;
 }
 
 .text {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -103,7 +123,6 @@ body {
 }
 
 .title-text {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -113,7 +132,6 @@ body {
 }
 
 .subtitle {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -123,7 +141,6 @@ body {
 }
 
 .images-title {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -132,22 +149,29 @@ body {
 }
 
 .images-type {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px; 
     letter-spacing: 0.03em;
+    color: var(--color-secundario);
 }
 
 :root {
     --color-botones: #F5F4FA;
     --color-hover: #2196F3;
-    --color-active: #4fadfa;
+    --color-active: #6ab2ec;
     --color-general: #212121;
-    --color-mailtel: #757575;
+    --color-secundario: #757575;
     --color-titles: #2196F3;
+    --color-link-button: #339ef5;
+    --color-focus: #1d7dcc;
+}
+    
+.list {
+    list-style: none;
 }
 
-
-
+.job {
+    color: var(--color-secundario);
+}
