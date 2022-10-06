@@ -60,6 +60,9 @@ body {
 .link:focus {
     color: var(--color-focus);
     transition: 1s;
+    border-bottom: 2.9px solid var(--color-link-button);
+    width: 100%;
+    border-radius: 1%;
 }
 
 .mail-tel {
@@ -88,6 +91,9 @@ body {
 .mail-tel:focus {
     color: var(--color-focus);
     transition: 1s;
+    border-bottom: 2.9px solid var(--color-link-button);
+    width: 100%;
+    border-radius: 1%;
 }
 
 
