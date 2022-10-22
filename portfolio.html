@@ -10,99 +10,116 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/modern-normalize@1.1.0/modern-normalize.css">
     </head>
 
     <body>
 
         <header>
-            <nav>
-                <p class="nav-title">WebStudio</p>
-                <ul class="list">
-                    <li><a class="link" href="index.html">Studio</a></li>
-                    <li><a class="link" href="portfolio.html">Portafolio</a></li>
-                    <li><a class="link" href="contactos">Contacts</a></li>
-                </ul>
-            </nav>
-            
-            <a class="mail-tel" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a class="mail-tel" href="tel:+380961111111">+38 096 111 11 11</a>
+            <div class="container">
+        
+                <div class="nav-container">
+                    <p class="nav-title">WebStudio</p>
+                    <nav>
+                        <a class="link" href="index.html">Studio</a>
+                        <a class="link" href="portfolio.html">Portafolio</a>
+                        <a class="link" href="contactos">Contacts</a>
+        
+                    </nav>
+        
+                    <a class="mail-tel" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <a class="mail-tel" href="tel:+380961111111">+38 096 111 11 11</a>
+                </div>
+            </div>
+        
         </header>
 
         <div>    
-            <ul class="list">
-                <li><button class="button">Todo</button></li>
-                <li><button class="button">Sitios-web</button></li>
-                <li><button class="button">Aplicaciones</button></li>
-                <li><button class="button">Diseño</button></li>
-                <li><button class="button">Marketing</button></li>
-            </ul>
+            <div class="portfolio-button-container">
+                <button class="button frst-portfolio-button">All</button>
+                <button class="button scond-portfolio-button">Web-Sites</button>
+                <button class="button thrd-portfolio-button">Apps</button>
+                <button class="button fourth-portfolio-button">Design</button>
+                <button class="button fth-portfolio-button">Marketing</button>
+            </div>
         </div>
 
-        <section>
-                <ul class="list"    >
-                    <li>
-                        <img src="images/8.jpg" alt="" width="400">
+        <section class="container">
+                <div class="portfolio-img-container">
+
+                    <div>
+                        <img src="images/8.jpg" alt="" width="370" height="294px">
                         <p class="images-title">Technoduck</p>
-                        <p>Web-site</p>
-                    </li>
+                        <p class="images-type">Web-site</p>
+                    </div>
                 
-                    <li>
-                        <img src="images/9.jpg" alt="" width="400">
+                    <div>
+                        <img src="images/9.jpg" alt="" width="370" height="294px">
                         <p class="images-title">Poster New Orlean vs Golden Star</p>
                         <p class="images-type">Diseño</p>
-                    </li>
+                    </div>
                 
-                    <li>
-                        <img src="images/10.jpg" alt="" width="400">
+                    <div>
+                        <img src="images/10.jpg" alt="" width="370" height="294px">
                         <p class="images-title">Seafood Restaurant</p>
                         <p class="images-type">Aplicaciones</p>
-                    </li>
+                    </div>
                 
-                    <li>
-                        <img src="images/11.jpg" alt="" width="400">
+                    <div>
+                        <img src="images/11.jpg" alt="" width="370" height="294px">
                         <p class="images-title">Project Prime</p>
                         <p class="images-type">Marketing</p>
-                    </li>
+                    </div>
                 
-                    <li>
-                        <img src="images/12.jpg" alt="" width="400">
+                    <div>
+                        <img src="images/12.jpg" alt="" width="370" height="294px">
                         <p class="images-title">Project Boxes</p>
                         <p class="images-type">Aplicaciones</p>
-                    </li>
+                    </div>
                 
-                    <li>
-                        <img src="images/13.jpg" alt="" width="400">
+                    <div>
+                        <img src="images/13.jpg" alt="" width="370" height="294px">
                         <p class="images-title">Inspiration has no Borders</p>
                         <p class="images-type">Sitio-web</p>
-                    </li>
+                    </div>
                 
-                    <li>
-                        <img src="images/14.jpg" alt="" width="400">
+                    <div>
+                        <img src="images/14.jpg" alt="" width="370" height="294px">
                         <p class="images-title">Limited Edition</p>
                         <p class="images-type">Diseño</p>
-                    </li>
+                    </div>
                 
-                    <li>
-                        <img src="images/15.jpg" alt="" width="400">
+                    <div>
+                        <img src="images/15.jpg" alt="" width="370" height="294px">
                         <p class="images-title">Project LAB</p>
                         <p class="images-type">Marketing</p>
-                    </li>
+                    </div>
                 
-                    <li>
-                        <img src="images/16.jpg" alt="" width="400">
+                    <div>
+                        <img src="images/16.jpg" alt="" width="370" height="294px">
                         <p class="images-title">Growing Business</p>
                         <p class="images-type">Aplicaciones</p>
-                    </li>
-                </ul>
+                    </div>
+                </div>
         </section>
 
         
-        <footer>
-            <p><b>WebStudio</b></p>
-            <address>Calz. Ticomán 500</address>
-            <p>Ciudad de México, CDMX, México</p>
-            <p><a class="mail-tel" href="mailto:info@devstudio.com">info@devstudio.com</a></p>
-            <p><a class="mail-tel" href="tel:+380961111111">+38 096 111 11 11</a></p>
+        <footer class="footer-background">
+        
+            <div class="container">
+        
+                <address class="footer-container">
+        
+                    <p class="p-footer nav-title">WebStudio</p>
+                    <address class="addres-p">Calz. Ticomán 500</address>
+                    <p class="addres-p">Ciudad de México, CDMX, México</p>
+                    <p><a class="mail-tel" href="mailto:info@devstudio.com">info@devstudio.com</a></p>
+                    <p><a class="mail-tel" href="tel:+380961111111">+38 096 111 11 11</a></p>
+        
+                </address>
+        
+            </div>
+        
         </footer>
         
     </body>

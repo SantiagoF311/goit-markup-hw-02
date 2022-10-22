@@ -8,6 +8,37 @@ body {
     color: var(--color-general);
 }
 
+header {
+    border-bottom: #ECECEC solid 1px;
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header > .container {
+    margin: 0 auto;
+}
+
+div > .container {
+    margin: 0 auto;
+}
+
+.link {
+    margin: 50px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+
+
 .button {
     background-color: var(--color-botones);
     border-radius: 4px;
@@ -33,9 +64,7 @@ body {
     transition: 1s;
 }
 
-
 .link {
-    
     color: var(--color-general);
     text-decoration: none;
     font-style: normal;
@@ -112,13 +141,51 @@ body {
 
 /* Main */
 
+.frst-seccion {
+    display: flex;
+    background: #2F303A;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.button-1 {
+    display: flex;
+    width: 261px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;                          
+    left: auto;
+    right: auto;
+    top: 430px;
+}
+
 .title {
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
     letter-spacing: 0.06em;
+    color: #FFFFFF;
+    position: absolute;
+    width: 696px;
+    height: 120px;
+    text-align: center;
+    top: 250px;
 }
+
+
+.details-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 95px auto;
+    text-align: left;
+
+}
+
 
 .text {
     font-style: normal;
@@ -126,6 +193,8 @@ body {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
+    width: 270px;
+    height: 70.5;
 }
 
 .title-text {
@@ -135,6 +204,26 @@ body {
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    width: 270px;
+}
+
+.texts {
+    width: 270px;
+}
+
+.whatwedo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 94px;
+}
+
+.whatwedo-img {
+    margin-left: 23px;
+    margin-right: 23px;
+}
+
+.whatwedo-subtitle {
+    margin-bottom: 60px;
 }
 
 .subtitle {
@@ -144,7 +233,38 @@ body {
     line-height: 42px;
     letter-spacing: 0.03em;
     color: var(--color-general);
+    text-align: center;
 }
+
+.ourteam-background {
+    background: #F5F4FA;
+    height: 648px;
+}
+
+.ourteam-container {
+    display: flex;
+    justify-content: center;
+}
+
+.ourteam-container div{
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    background: #FFFFFF;
+    text-align: center;
+    
+}
+
+.ourteam-subtitle {
+    padding-top: 94px;
+    margin-bottom: 65px;
+}
+
+.ourteam-img {
+    margin-left: 21px;
+    margin-right: 21px;
+    height: 368px;
+}
+
 
 .images-title {
     font-style: normal;
@@ -152,6 +272,7 @@ body {
     font-size: 18px;
     line-height: 36px;
     letter-spacing: 0.06em;
+    padding-left: 24px;
 }
 
 .images-type {
@@ -160,6 +281,7 @@ body {
     font-size: 16px;
     line-height: 30px; 
     letter-spacing: 0.03em;
+    padding-left: 24px;
     color: var(--color-secundario);
 }
 
@@ -172,6 +294,7 @@ body {
     --color-titles: #2196F3;
     --color-link-button: #339ef5;
     --color-focus: #1d7dcc;
+    --color-p: #ffff;
 }
     
 .list {
@@ -181,4 +304,92 @@ body {
 .job {
     color: var(--color-secundario);
 }
+
+.footer-background {
+    background: #2F303A;
+    margin: 0;
+    height: 350px;
+}
+
+.p-footer {
+    margin-top: 0;
+    
+}
+
+.footer-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.addres-p {
+    color: var(--color-p);
+}
+
+    
+
+.portfolio-button-container {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.frst-portfolio-button {
+    width: 73px;
+    height: 38px;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.scond-portfolio-button {
+    width: 128px;
+    height: 38px;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.thrd-portfolio-button {
+    width: 145px;
+    height: 38px;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.fourth-portfolio-button {
+    width: 103px;
+    height: 38px;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.fth-portfolio-button {
+    width: 130px;
+    height: 38px;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.portfolio-img-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portfolio-img-container div {
+    width: 370px;
+    height: 404px;
+    left: 215px;
+    top: 262px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: left;
+    margin-bottom: 94px;
+}
+
+
+
+
 

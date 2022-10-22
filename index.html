@@ -10,93 +10,126 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/modern-normalize@1.1.0/modern-normalize.css">
     </head>
 
     <body>
 
         <header>
-            <nav>
-                <p class="nav-title">WebStudio</p>
-                <ul class="list">
-                    <li><a class="link" href="index.html">Studio</a></li>
-                    <li><a class="link" href="portfolio.html">Portafolio</a></li>
-                    <li><a class="link" href="contactos">Contacts</a></li>
-                </ul>
-            </nav>
+            <div class="container">
+
+                <div class="nav-container">
+                    <p class="nav-title">WebStudio</p>
+                <nav>
+                    <a class="link" href="index.html">Studio</a>
+                    <a class="link" href="portfolio.html">Portafolio</a>
+                    <a class="link" href="contactos">Contacts</a>
+                    
+                </nav>
         
-            <a class="mail-tel" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a class="mail-tel" href="tel:+380961111111">+38 096 111 11 11</a>
+                <a class="mail-tel" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="mail-tel" href="tel:+380961111111">+38 096 111 11 11</a>
+                </div>
+            </div>
+
         </header>
 
         <main>
 
-            <div>
+            <div class="frst-seccion">
                 <h1 class="title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-                <button class="button">Solicite nuestro servicio</button>
+                <button class="button button-1">Solicite nuestro servicio</button>
             </div>
 
             
-            <ul class="list">
-                <li><p class="title-text">atencion a los detalles</p></li>
-                <li><p class="title-text">calificacion</p></li>
-                <li><p class="title-text">tecnologia moderna</p></li>
-            </ul>
-                
-
-                
-                    <ul class="list">
-                        <li><p class="text">Nos adentramos en todos los detalles y procesos
+        <section class="container">  
+                <div class="details-container">      
+                    <div class="texts">       
+                        <p class="title-text">ATENCION A LOS DETALLES</p>
+                        <p class="text">Nos adentramos en todos los detalles y procesos
                             de su negocio, para así desarrollar una solución
-                            a su medida.</p></li>
-                        <li><p class="text">Con nosotros, usted puede sentirse seguro y protegido. Un principio importante de la empresa:
-                            respetar
-                            su tiempo y respetar los plazos acordados.</p></li>
-                        <li><p class="text">Usted podrá observar y participar en cada fase del desarrollo y aplicación de soluciones.</p></li>
-                        <li><p class="text">Usamos herramientas innovadoras para resolver las tareas asignadas. Es hora de simplificar los
-                            procesos
-                            laborales.</p></li>
-                    </ul>
+                            a su medida.</p>
+                    </div>
+                    <div class="texts">
+                        <p class="title-text">PUNTUALIDAD</p>
+                        <p class="text">Con nosotros, usted puede sentirse seguro y protegido. Un principio importante de la empresa:
+                            respetar su tiempo y respetar los plazos acordados.</p>
+                    </div>
+                    <div class="texts">
+                        <p class="title-text">PLANIFICACION</p>
+                        <p class="text">Usted podrá observar y participar en cada fase del desarrollo y aplicación de soluciones.</p>
+                    </div>
+                    <div class="texts">
+                        <p class="title-text">TECNOLOGIA MODERNA</p>
+                        <p class="text">Usamos herramientas innovadoras para resolver las tareas asignadas. Es hora de simplificar los
+                            procesos laborales.</p>
+                    </div>
+                </div>          
+        </section>
                 
             
-
-            <div>
-                <h2 class="subtitle">A qué nos dedicamos</h2>
-                <ul class="list">
-                    <li><img src="images/5.jpg" alt="Oficina de desarrollo UX" width= 500 height= 400></li>
-                    <li><img src="images/6.jpg" alt="Oficina de diseño web" width= 500 height= 400></li>
-                    <li><img src="images/7.jpg" alt="Hombre desarrollando un software" width= 500 height= 400></li>
-                </ul>
+        <section class="container">
+            <h2 class="subtitle whatwedo-subtitle">A qué nos dedicamos</h2>
+            <div class="whatwedo-container">
+                <div class="whatwedo-img"><img src="images/5.jpg" alt="Oficina de desarrollo UX" width= 370 height= 294></div>
+                <div class="whatwedo-img"><img src="images/6.jpg" alt="Oficina de diseño web" width= 370 height= 294></div>
+                <div class="whatwedo-img"><img src="images/7.jpg" alt="Hombre desarrollando un software" width= 370 height= 294></div>    
             </div>
+                                      
+       </section>
+        
+        <section class="section">
+            <div class="ourteam-background">
+                <h2 class="subtitle ourteam-subtitle">Nuestro Equipo</h2>
+                
+                    <div class="ourteam-container">
 
-            <div>
-                <h2 class="subtitle">Nuestro Equipo</h2>
-                <ul class="list">
-                    <li><img src="images/1.jpg" alt="Hombre con gafas" width= 450 height= 420></li>
-                    <li><img src="images/2.jpg" alt="Mujer rubia con gafas" width="450" height="420"></li>
-                    <li><img src="images/3.jpg" alt="Hombre sonriendo" width="450" height="420"></li>
-                    <li><img src="images/4.jpg" alt="Hombre con gafas sonriendo" width="450" height="420"></li>
-                </ul>
+                        <div class="ourteam-img">
+                            <img src="images/1.jpg" alt="Hombre con gafas" width= "270" height= "260">
+                            <p>Andrés Cubo</p>
+                            <p>Product Designer</p>
+                        </div>
+                    
+                        <div class="ourteam-img">
+                            <img src="images/2.jpg" alt="Mujer rubia con gafas" width="270" height="260">
+                            <p>Carla Palacios</p>
+                            <p>Frontend Developer</p>
+                        </div>
+                        <div class="ourteam-img">
+                            <img src="images/3.jpg" alt="Hombre sonriendo" width="270" height="260">
+                            <p>Mario Dorado</p>
+                            <p>Marketing</p>
+                        </div>
+                        <div class="ourteam-img">
+                            <img src="images/4.jpg" alt="Hombre con gafas sonriendo" width="270" height="260">
+                            <p>Pablo Mijangos</p>
+                            <p>UI Designer</p>
+                        </div>
+
+                    </div>                
             </div>
-
-            <ul class="list">                 
-                 <li>Andrés Cubo</li>
-                 <li>Carla Palacios</li>
-                 <li>Mario Dorado</li>
-                 <li>Pablo Mijangos</li>
-                 <li class="job">Product Designer</li>
-                 <li class="job">Frontend Developer</li>
-                 <li class="job">Marketing</li>
-                 <li class="job">UI Designer</li>                 
-            </ul>
+        </section>
+                    
 
         </main>
 
-        <footer>
-            <p><b>WebStudio</b></p>
-            <address>Calz. Ticomán 500</address>
-            <p>Ciudad de México, CDMX, México</p>
-            <p><a class="mail-tel" href="mailto:info@devstudio.com">info@devstudio.com</a></p>
-            <p><a class="mail-tel" href="tel:+380961111111">+38 096 111 11 11</a></p>
+
+        <footer class="footer-background">
+
+            <div class="container">
+
+            <address class="footer-container">
+
+                <p class="p-footer nav-title">WebStudio</p>
+                <address class="addres-p">Calz. Ticomán 500</address>
+                <p class="addres-p">Ciudad de México, CDMX, México</p>
+                <p><a class="mail-tel" href="mailto:info@devstudio.com">info@devstudio.com</a></p>
+                <p><a class="mail-tel" href="tel:+380961111111">+38 096 111 11 11</a></p>
+
+            </address>
+
+            </div>
+            
         </footer>
 
     </body>
