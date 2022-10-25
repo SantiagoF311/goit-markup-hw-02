@@ -161,7 +161,26 @@ div > .container {
     left: auto;
     right: auto;
     top: 430px;
+    background-color: var(--color-titles);
+    border-radius: 4px;
+    border: 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
 }
+
+.button-1:hover {
+    background-color: var(--color-boton-banner);
+    transition: .3s;
+}
+
+
+.button-1:active {
+    background-color: var(--color-botones);
+    transition: .3s;
+}
+
+
+
 
 .title {
     font-style: normal;
@@ -169,7 +188,7 @@ div > .container {
     font-size: 44px;
     line-height: 60px;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: var(--color-p);
     position: absolute;
     width: 696px;
     height: 120px;
@@ -237,7 +256,7 @@ div > .container {
 }
 
 .ourteam-background {
-    background: #F5F4FA;
+    background: var(--color-botones);
     height: 648px;
 }
 
@@ -249,7 +268,7 @@ div > .container {
 .ourteam-container div{
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-    background: #FFFFFF;
+    background: var(--color-p);
     text-align: center;
     
 }
@@ -267,15 +286,18 @@ div > .container {
 
 
 .images-title {
+    position: relative;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
     letter-spacing: 0.06em;
     padding-left: 24px;
+    bottom: 5px;
 }
 
 .images-type {
+    position: relative;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -283,6 +305,7 @@ div > .container {
     letter-spacing: 0.03em;
     padding-left: 24px;
     color: var(--color-secundario);
+    bottom: 20px;
 }
 
 :root {
@@ -293,8 +316,9 @@ div > .container {
     --color-secundario: #757575;
     --color-titles: #2196F3;
     --color-link-button: #339ef5;
-    --color-focus: #1d7dcc;
+    --color-focus: #3194e6;
     --color-p: #ffff;
+    --color-boton-banner : #2787d6;
 }
     
 .list {
@@ -323,6 +347,8 @@ div > .container {
 
 .addres-p {
     color: var(--color-p);
+    font-family: 'Roboto';
+    font-style: normal  ;
 }
 
     
