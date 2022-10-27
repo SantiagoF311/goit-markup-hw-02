@@ -32,12 +32,65 @@ div > .container {
 
 .nav-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     height: 80px;
 }
 
+.nav-link {
+    margin-left: 68px;
+    margin-right: 290px;
+}
+.nav-link-1 {
+    color: var(--color-general);
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    margin-left: 25px;
+    margin-right: 25px;
+}
 
+.mail-tel-nav {
+    
+    
+}
+
+.nav-mail-tel {
+    color: var(--color-secundario);
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    margin-left:px ;
+    width:122px;
+    margin-right: 50px;
+}
+
+.nav-mail-tel:hover {
+    color: var(--color-hover);
+}
+
+.nav-mail-tel:active {
+    color: var(--color-active);
+    border-bottom: 2.9px solid var(--color-link-button);
+    width: 100%;
+    border-radius: 1%;
+    transition: .2s;
+    color: var(--color-active);
+}
+
+.nav-mail-tel:focus {
+    color: var(--color-focus);
+    transition: 1s;
+    border-bottom: 2.9px solid var(--color-link-button);
+    width: 100%;
+    border-radius: 1%;
+}
 
 .button {
     background-color: var(--color-botones);
