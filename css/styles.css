@@ -53,11 +53,6 @@ div > .container {
     margin-right: 25px;
 }
 
-.mail-tel-nav {
-    
-    
-}
-
 .nav-mail-tel {
     color: var(--color-secundario);
     text-decoration: none;
@@ -205,7 +200,7 @@ div > .container {
 
 .button-1 {
     display: flex;
-    width: 261px;
+    width: 208px;
     height: 50px;
     justify-content: center;
     align-items: center;
